@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+// Đã cập nhật trỏ trực tiếp đến Backend trên Render
 const API_URL = 'https://two36822-levanben.onrender.com/api/foods';
+
 function App() {
   const [foods, setFoods] = useState([]);
   const [search, setSearch] = useState('');
@@ -131,6 +133,7 @@ function App() {
           <tr>
             <th>Mã</th>
             <th>Tên món</th>
+            <th>Hình ảnh</th>
             <th>Loại</th>
             <th>Vùng miền</th>
             <th>Giá</th>
@@ -144,6 +147,17 @@ function App() {
               <tr key={food._id}>
                 <td>{food.foodId}</td>
                 <td>{food.name}</td>
+                <td>
+                  {food.imageUrl ? (
+                    <img 
+                      src={food.imageUrl} 
+                      alt={food.name} 
+                      style={{ width: '50px', height: '50px', objectFit: 'cover', borderRadius: '4px' }} 
+                    />
+                  ) : (
+                    <span>Không có ảnh</span>
+                  )}
+                </td>
                 <td>{food.category}</td>
                 <td>{food.cuisine}</td>
                 <td>{food.price.toLocaleString()} VNĐ</td>
@@ -156,7 +170,7 @@ function App() {
             ))
           ) : (
             <tr>
-              <td colSpan="7" style={{ textAlign: 'center' }}>Không tìm thấy món ăn nào.</td>
+              <td colSpan="8" style={{ textAlign: 'center' }}>Không tìm thấy món ăn nào.</td>
             </tr>
           )}
         </tbody>
