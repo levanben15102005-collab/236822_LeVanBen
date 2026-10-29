@@ -32,10 +32,4 @@
 - **Backend API (Render):** https://two36822-levanben.onrender.com/api/foods
 - **Database:** MongoDB Atlas
 
----
 
-## 5. Hướng dẫn chạy Frontend bằng Docker (Câu 6)
-
-1. Mở terminal tại thư mục `frontend`:
-   ```bash
-   cd frontend
