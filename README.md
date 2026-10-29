@@ -30,6 +30,9 @@
 ## 🚀 Thông tin triển khai (Deployment Links)
 - **Frontend App (Render):** https://web-236822-levanben.onrender.com
 - **Backend API (Render):** https://two36822-levanben.onrender.com/api/foods
-- **Database:** MongoDB Atlas
+- **Database:** MongoDB Atlas: ** mongodb+srv://levanben15102005_db_user:<db_password>@cluster0.yzwbwx9.mongodb.net/
+- **Github:** https://github.com/levanben15102005-collab/236822_LeVanBen
+- **Docker (Backend):** https://hub.docker.com/r/levanben/mern-backend/tags
+- **Docker (Frontend):** https://hub.docker.com/r/levanben/mern-frontend/tags
 
 
