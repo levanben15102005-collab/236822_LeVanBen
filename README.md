@@ -26,3 +26,11 @@
 │   ├── src/
 │   └── package.json
 └── README.md         # Tài liệu hướng dẫn dự án
+
+---
+
+## 5. Hướng dẫn chạy Frontend bằng Docker (Câu 6)
+
+1. Mở terminal tại thư mục `frontend`:
+   ```bash
+   cd frontend
