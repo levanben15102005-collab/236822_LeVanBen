@@ -27,6 +27,11 @@
 │   └── package.json
 └── README.md         # Tài liệu hướng dẫn dự án
 
+## 🚀 Thông tin triển khai (Deployment Links)
+- **Frontend App (Render):** https://web-236822-levanben.onrender.com
+- **Backend API (Render):** https://two36822-levanben.onrender.com/api/foods
+- **Database:** MongoDB Atlas
+
 ---
 
 ## 5. Hướng dẫn chạy Frontend bằng Docker (Câu 6)
